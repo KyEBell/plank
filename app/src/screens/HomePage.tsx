@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: 'white',
     padding: 8,
-    backgroundColor: '#6C3483', // Amethyst / Dark Purple
+    backgroundColor: '#6C3483',
     borderRadius: 5,
     alignItems: 'center',
     marginHorizontal: 8,
@@ -96,14 +96,14 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   buttonDisabled: {
-    backgroundColor: '#D3D3D3', // Light Gray for disabled state
+    backgroundColor: '#D3D3D3',
   },
   resetButton: {
     fontSize: 18,
     color: 'white',
     padding: 8,
     marginTop: 16,
-    backgroundColor: '#DAA520', // Goldenrod Yellow
+    backgroundColor: '#DAA520',
     borderRadius: 5,
     alignItems: 'center',
   },
