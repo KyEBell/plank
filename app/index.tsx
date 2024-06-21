@@ -1,18 +1,11 @@
-import { View, StyleSheet } from 'react-native';
-import HomePage from './src/screens/HomePage';
+import React from 'react';
+import { ThemeProvider } from './src/context/ThemeContext';
+import { MainContent } from './src/MainContent';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
-
-export default function Index() {
+export default function App() {
   return (
-    <View style={styles.container}>
-      <HomePage />
-    </View>
+    <ThemeProvider>
+      <MainContent />
+    </ThemeProvider>
   );
 }
